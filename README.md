@@ -35,7 +35,7 @@ lando wp core install \
   --admin_email=admin@my-first-wordpress-app.lndo.site \
   --path=wordpress
 
-<strong>Step 7: </strong>
+<strong>Step 7: </strong></br>
 Run lando yarn from the theme directory to install dependencies</br>
 Update bud.config.js with your local dev URL</br>
 lando yarn build — Compile assets
