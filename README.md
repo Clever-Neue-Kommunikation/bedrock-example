@@ -16,14 +16,9 @@ lando start</br>
 lando composer install
 
 
-# Create a WordPress config file
+# Update .env
 <strong>Step 5: </strong></br>
-lando wp config create \
-  --dbname=wordpress \
-  --dbuser=wordpress \
-  --dbpass=wordpress \
-  --dbhost=database \
-  --path=web/wp
+Generate your keys here: https://roots.io/salts.html
 
 # Install WordPress
 <strong>Step 6: </strong>
