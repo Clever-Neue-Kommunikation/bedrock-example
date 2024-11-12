@@ -1,4 +1,4 @@
-<h1> Getting started</h1>
+# Getting started
 
 <strong>Step 1: </strong></br>
 Fork Git-Repository bedrock-boilerplate</br>
