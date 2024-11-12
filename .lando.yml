@@ -1,0 +1,38 @@
+name: bedrock-boilerplate
+recipe: wordpress
+env_file:
+  - .env
+
+config:
+  database: mariadb
+  php: '8.2'
+  via: nginx
+  composer_version: 2-latest
+  webroot: web
+  xdebug: true
+
+proxy:
+  appserver_nginx:
+    - bedrock-boilerplate.lndo.site
+  mailhog:
+    - mail.bedrock-boilerplate.lndo.site
+  theme:
+    - theme.bedrock-boilerplate.lndo.site:3000
+
+services:
+  mailhog:
+    type: mailhog
+    portforward: true
+    hogfrom:
+      - appserver_nginx
+
+  theme:
+    type: node:20
+    overrides:
+      ports:
+        - 3000:3000
+        - 3001:3001
+
+tooling:
+  yarn:
+    service: theme

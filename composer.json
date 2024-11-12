@@ -28,7 +28,11 @@
       "type": "composer",
       "url": "https://wpackagist.org",
       "only": ["wpackagist-plugin/*", "wpackagist-theme/*"]
-    }
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/Clever-Neue-Kommunikation/sage-boilerplate.git"
+  }
   ],
   "require": {
     "php": ">=8.0",
@@ -40,7 +44,8 @@
     "roots/wordpress": "6.6.2",
     "roots/wp-config": "1.0.0",
     "roots/wp-password-bcrypt": "1.2.0",
-    "wpackagist-theme/twentytwentyfour": "^1.0"
+    "wpackagist-theme/twentytwentyfour": "^1.0",
+    "clever/sage": "dev-main"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.7.1",
