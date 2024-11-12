@@ -23,7 +23,7 @@ lando wp config create \
   --dbuser=wordpress \
   --dbpass=wordpress \
   --dbhost=database \
-  --path=wordpress
+  --path=web/wp
 
 # Install WordPress
 <strong>Step 6: </strong>
@@ -33,7 +33,7 @@ lando wp core install \
   --admin_user=admin \
   --admin_password=password \
   --admin_email=admin@my-first-wordpress-app.lndo.site \
-  --path=wordpress
+  --path=web/wp
 
 <strong>Step 7: </strong></br>
 Run lando yarn from the theme directory to install dependencies</br>
