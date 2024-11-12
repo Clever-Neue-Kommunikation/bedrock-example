@@ -1,21 +1,22 @@
 <h1> Getting started</h1>
 
-Schritt 1: 
-Fork Git-Repository bedrock-boilerplate
+<strong>Step 1: </strong>
+Fork Git-Repository bedrock-boilerplate</br>
 Fork Git-Repository sage-boilerplate
 
-Schritt 2:
+<strong>Step 2: </strong>
 git clone [forked bedrock-boilerplate]
 
-Schritt 3:
+<strong>Step 3: </strong>
 configure package.json with [forked sage-boilerplate] (repository url and require)
 configure .lando.yaml (name and url)
 
-Schritt 4:
-lando start
+<strong>Step 4: </strong>
+lando start</br>
 lando composer install
 
-Schritt 5:
+<strong>Step 5: </strong>
+
 # Create a WordPress config file
 lando wp config create \
   --dbname=wordpress \
@@ -33,7 +34,7 @@ lando wp core install \
   --admin_email=admin@my-first-wordpress-app.lndo.site \
   --path=wordpress
 
-Schritt 6:
+<strong>Step 6: </strong>
 Run lando yarn from the theme directory to install dependencies
 Update bud.config.js with your local dev URL
 lando yarn build — Compile assets
