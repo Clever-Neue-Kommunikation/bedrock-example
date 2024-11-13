@@ -8,7 +8,7 @@ Fork Git-Repository sage-boilerplate
 git clone [forked bedrock-boilerplate]
 
 <strong>Step 3: </strong></br>
-configure package.json with [forked sage-boilerplate] (repository url and require)
+configure package.json with [forked sage-boilerplate] (repository url and require)</br>
 configure .lando.yaml (name and url)
 
 <strong>Step 4: </strong></br>
@@ -35,11 +35,9 @@ Run lando yarn from the theme directory to install dependencies</br>
 Update bud.config.js with your local dev URL</br>
 lando yarn build — Compile assets
 
-# Developing this Theme
-
 # TO DO
 
-- Implement ACF to make components for gutenberg-blocks
+- <del>Implement ACF to make components for gutenberg-blocks</del>
 - Add borlabs-cookies to boilerplate
 - develope navwalker
 
