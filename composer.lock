@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e245e721e21eb4b5347a6d223f11e937",
+    "content-hash": "d3519e284c7c76e9dfc6a81bd25407c4",
     "packages": [
         {
             "name": "brick/math",
@@ -143,12 +143,6 @@
                 "url": "https://github.com/Clever-Neue-Kommunikation/sage-boilerplate.git",
                 "reference": "63af7622dbef0cb381766a882bc0a73a2cd501ad"
             },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Clever-Neue-Kommunikation/sage-boilerplate/zipball/63af7622dbef0cb381766a882bc0a73a2cd501ad",
-                "reference": "63af7622dbef0cb381766a882bc0a73a2cd501ad",
-                "shasum": ""
-            },
             "require": {
                 "log1x/acf-composer": "^3.2",
                 "php": ">=8.1",
@@ -206,8 +200,7 @@
             ],
             "support": {
                 "issues": "https://github.com/roots/sage/issues",
-                "forum": "https://discourse.roots.io/",
-                "source": "https://github.com/Clever-Neue-Kommunikation/sage-boilerplate/tree/main"
+                "forum": "https://discourse.roots.io/"
             },
             "time": "2024-11-12T15:47:35+00:00"
         },
