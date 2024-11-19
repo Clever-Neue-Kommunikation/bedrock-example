@@ -32,6 +32,9 @@ services:
       ports:
         - 3000:3000
         - 3001:3001
+  appserver_nginx:
+    build_as_root:
+      - apt-get install -y subversion
 
 tooling:
   yarn:
