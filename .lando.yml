@@ -28,16 +28,19 @@ services:
 
   theme:
     type: node:20
-    overrides:
-      ports:
-        - 3000:3000
-        - 3001:3001
-    build_as_root:
-      - cd web/app/themes/sage-boilerplate && yarn && yarn build
+    # overrides:
+    #   ports:
+    #     - 3000:3000
+    #     - 3001:3001
+    build:
+      - cd /app/web/app/themes/sage-boilerplate && yarn && yarn build
+    command: cd /app/web/app/themes/sage-boilerplate && yarn dev
   appserver_nginx:
     build_as_root:
       - apt-get install -y subversion
+    build:
       - composer install
+      - cd /app/web/app/themes/sage-boilerplate && composer install
 
 tooling:
   yarn:
