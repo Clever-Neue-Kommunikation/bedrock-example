@@ -32,9 +32,12 @@ services:
       ports:
         - 3000:3000
         - 3001:3001
+    build_as_root:
+      - cd web/app/themes/sage-boilerplate && yarn && yarn build
   appserver_nginx:
     build_as_root:
       - apt-get install -y subversion
+      - composer install
 
 tooling:
   yarn:
