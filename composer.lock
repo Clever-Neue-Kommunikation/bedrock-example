@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d3519e284c7c76e9dfc6a81bd25407c4",
+    "content-hash": "1e0ad086aea7844d1272ab6f515e5ada",
     "packages": [
         {
             "name": "brick/math",
@@ -4155,7 +4155,7 @@
         },
         {
             "name": "roots/wordpress",
-            "version": "6.6.2",
+            "version": "6.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/roots/wordpress.git",
@@ -4186,7 +4186,7 @@
             ],
             "support": {
                 "issues": "https://github.com/roots/wordpress/issues",
-                "source": "https://github.com/roots/wordpress/tree/6.6.2"
+                "source": "https://github.com/roots/wordpress/tree/6.7"
             },
             "funding": [
                 {
@@ -4269,22 +4269,22 @@
         },
         {
             "name": "roots/wordpress-no-content",
-            "version": "6.6.2",
+            "version": "6.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/WordPress/WordPress.git",
-                "reference": "6.6.2"
+                "reference": "6.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/release/wordpress-6.6.2-no-content.zip",
-                "shasum": "b496b8a9bb3c6d20a781344cbe3e189f7fd83871"
+                "url": "https://downloads.wordpress.org/release/wordpress-6.7-no-content.zip",
+                "shasum": "d30558244ed409b6421a5454f9c837d0884317f2"
             },
             "require": {
                 "php": ">= 7.2.24"
             },
             "provide": {
-                "wordpress/core-implementation": "6.6.2"
+                "wordpress/core-implementation": "6.7"
             },
             "suggest": {
                 "ext-curl": "Performs remote request operations.",
@@ -4335,7 +4335,7 @@
                     "type": "other"
                 }
             ],
-            "time": "2024-09-10T15:25:31+00:00"
+            "time": "2024-11-12T20:51:37+00:00"
         },
         {
             "name": "roots/wp-config",
@@ -6450,112 +6450,22 @@
             "time": "2024-07-20T21:52:34+00:00"
         },
         {
-            "name": "voku/portable-ascii",
-            "version": "2.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/voku/portable-ascii.git",
-                "reference": "b56450eed252f6801410d810c8e1727224ae0743"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/voku/portable-ascii/zipball/b56450eed252f6801410d810c8e1727224ae0743",
-                "reference": "b56450eed252f6801410d810c8e1727224ae0743",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=7.0.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "~6.0 || ~7.0 || ~9.0"
-            },
-            "suggest": {
-                "ext-intl": "Use Intl for transliterator_transliterate() support"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "voku\\": "src/voku/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Lars Moelleken",
-                    "homepage": "http://www.moelleken.org/"
-                }
-            ],
-            "description": "Portable ASCII library - performance optimized (ascii) string functions for php.",
-            "homepage": "https://github.com/voku/portable-ascii",
-            "keywords": [
-                "ascii",
-                "clean",
-                "php"
-            ],
-            "support": {
-                "issues": "https://github.com/voku/portable-ascii/issues",
-                "source": "https://github.com/voku/portable-ascii/tree/2.0.1"
-            },
-            "funding": [
-                {
-                    "url": "https://www.paypal.me/moelleken",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/voku",
-                    "type": "github"
-                },
-                {
-                    "url": "https://opencollective.com/portable-ascii",
-                    "type": "open_collective"
-                },
-                {
-                    "url": "https://www.patreon.com/voku",
-                    "type": "patreon"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/voku/portable-ascii",
-                    "type": "tidelift"
-                }
-            ],
-            "time": "2022-03-08T17:03:00+00:00"
-        },
-        {
-            "name": "wpackagist-theme/twentytwentyfour",
-            "version": "1.2",
+            "name": "wpackagist-theme/twentytwentyfive",
+            "version": "1.0",
             "source": {
                 "type": "svn",
-                "url": "https://themes.svn.wordpress.org/twentytwentyfour/",
-                "reference": "1.2"
+                "url": "https://themes.svn.wordpress.org/twentytwentyfive/",
+                "reference": "1.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/twentytwentyfour.1.2.zip"
+                "url": "https://downloads.wordpress.org/theme/twentytwentyfive.1.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
             },
             "type": "wordpress-theme",
-            "homepage": "https://wordpress.org/themes/twentytwentyfour/"
-        },
-        {
-            "name": "wpengine/advanced-custom-fields-pro",
-            "version": "6.3.11",
-            "dist": {
-                "type": "zip",
-                "url": "https://connect.advancedcustomfields.com/v2/plugins/composer_download?s=composer&p=pro&t=6.3.11"
-            },
-            "require": {
-                "composer/installers": "~1.0 || ~2.0"
-            },
-            "replace": {
-                "wpackagist-plugin/advanced-custom-fields": "self.version",
-                "wpengine/advanced-custom-fields": "self.version"
-            },
-            "type": "wordpress-plugin"
+            "homepage": "https://wordpress.org/themes/twentytwentyfive/"
         }
     ],
     "packages-dev": [
